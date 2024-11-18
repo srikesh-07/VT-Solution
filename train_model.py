@@ -8,7 +8,6 @@ from train.trainer import Trainer
 from utils.params import get_train_args
 
 if __name__ == "__main__":
-    # os.environ['WANDB_API_KEY'] = "6b6a2b5f0485c50922f14ebb597836e806bf70d3"
     args = get_train_args()
     print(args)
     with open(args.attributes_config, "r") as j_file:
