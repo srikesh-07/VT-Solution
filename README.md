@@ -1,5 +1,5 @@
 <h1 align="center">📊 Visual Taxonomy Challenge - Predicting Multi-Attributes by Meesho</h1>
-<h2 align="center">A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Specialized Losses for Long-Tail Imbalance</h2>
+<h2 align="center">A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Specialized Losses for Long-Tail Imbalance to predict Multi-Attributes of Clothes</h2>
 <h3 align="center">Solution Proposed by <a href="https://www.kaggle.com/neuralretr0">Neural-Retro</a> (<a href="mailto:srikeshram05@gmail.com">Srikeshram B</a>)</h3>
 
 # 📖 Introduction
