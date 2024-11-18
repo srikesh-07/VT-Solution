@@ -1,6 +1,10 @@
-# 🌐 Visual Taxonomy Challenge - Predicting Multi-Attributes by Meesho
-## A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Adaptive Losses for Long Tail Imbalance specialized to predict the attributes of different categories of clothes.
-### Solution proposed by [Neural-Retro](https://www.kaggle.com/neuralretr0) ([Srikeshram B](mailto:srikeshram05@gmail.com))
+<h1 align="center">📊 Visual Taxonomy Challenge - Predicting Multi-Attributes by Meesho</h1>
+<h2 align="center">A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Specialized Losses for Long-Tail Imbalance</h2>
+<h3 align="center">Solution Proposed by <a href="https://www.kaggle.com/neuralretr0">Neural-Retro</a> (<a href="mailto:srikeshram05@gmail.com">Srikeshram B</a>)</h3>
+
+# 📖 Introduction
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clothing attribute prediction from images is inherently challenging due to noisy, imbalanced datasets and domain adaptation issues. Traditional models often struggle to balance learning across categories, especially minority classes, and are prone to biased predictions and catastrophic forgetting. This work presents a robust solution that leverages a domain-adapted Vision Transformer (ViT-B/32) backbone pre-trained on clothing data, minimizing the need for adaptation while effectively extracting relevant features. A customized data pipeline efficiently handles missing values, implements category-specific batch sampling, and applies augmentation techniques to improve model generalization. The model incorporates state-of-the-art loss weighting methods, such as Class Balanced Loss combined with Focal Loss, to ensure balanced learning and prevent conflicts between categories. This strategy mitigates class imbalance, particularly for underrepresented categories, and avoids biased learning toward a dominant category. The training process, utilizing AdamW optimizer, gradient clipping, and CosineLR scheduling with warmup, ensures stable and gradual convergence. The proposed approach achieves competitive results, effectively handling class imbalance and outperforming baseline methods on public benchmarks.
+
 # 🛠️ Setup
 ### 1. Install Miniconda3 or Anaconda3
 Install Miniconda3 or Anaconda3 to manage the environment.
@@ -125,7 +129,7 @@ To use any of the above loss weighting algorithms, pass the respective short nam
 # ❓ FAQ
 
 1. **Why is my training not reproducing results?**\
-Ensure you use the same train/validation split employed during model creation. Uncomment lines 197 and 198 in train/trainer.py.
+Ensure you use the same train/validation split employed during model creation. Uncomment lines `197` and `198` in `train/trainer.py`.
 
 2.  **Where are my training checkpoints stored?**\
 All model checkpoints and metrics are stored in the directory specified in SAVE_DIR.
