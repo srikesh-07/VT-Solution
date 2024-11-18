@@ -239,20 +239,6 @@ def get_inference_args():
         help="Output file path with filename to store the inference as CSV. By default it stores it in the same folder as checkpoints.",
     )
 
-    # Model Related Settings
-    parser.add_argument(
-        "--inter_linear",
-        default=True,
-        action=argparse.BooleanOptionalAction,
-        help="Intermediate Linear Layer after encoder of the pre-trained model.",
-    )
-    parser.add_argument(
-        "--batch_norm",
-        default=True,
-        action=argparse.BooleanOptionalAction,
-        help="Batch Norm Layer after encoder of the pre-trained model and before inter-linear.",
-    )
-
     args = parser.parse_args()
 
     return args
