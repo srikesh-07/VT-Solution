@@ -1,0 +1,5 @@
+wandb/
+__pycache__/
+output/
+weights/
+.ipynb_checkpoints/

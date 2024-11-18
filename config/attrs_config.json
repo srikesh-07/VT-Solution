@@ -1,0 +1,266 @@
+{
+    "Men Tshirts": {
+        "color": [
+            "default",
+            "multicolor",
+            "black",
+            "white"
+        ],
+        "neck": [
+            "round",
+            "polo"
+        ],
+        "pattern": [
+            "printed",
+            "solid"
+        ],
+        "print_or_pattern_type": [
+            "default",
+            "solid",
+            "typography"
+        ],
+        "sleeve_length": [
+            "short sleeves",
+            "long sleeves"
+        ]
+    },
+    "Sarees": {
+        "blouse_pattern": [
+            "same as saree",
+            "solid",
+            "same as border",
+            "default"
+        ],
+        "border": [
+            "woven design",
+            "zari",
+            "no border",
+            "solid",
+            "default",
+            "temple border"
+        ],
+        "border_width": [
+            "small border",
+            "big border",
+            "no border"
+        ],
+        "color": [
+            "multicolor",
+            "cream",
+            "white",
+            "default",
+            "navy blue",
+            "yellow",
+            "green",
+            "pink"
+        ],
+        "occasion": [
+            "party",
+            "traditional",
+            "daily",
+            "wedding"
+        ],
+        "ornamentation": [
+            "jacquard",
+            "default",
+            "tassels and latkans"
+        ],
+        "pallu_details": [
+            "woven design",
+            "same as saree",
+            "default",
+            "zari woven"
+        ],
+        "pattern": [
+            "zari woven",
+            "woven design",
+            "default",
+            "solid",
+            "printed"
+        ],
+        "print_or_pattern_type": [
+            "applique",
+            "elephant",
+            "floral",
+            "ethnic motif",
+            "peacock",
+            "default",
+            "solid",
+            "checked",
+            "botanical"
+        ],
+        "transparency": [
+            "no",
+            "yes"
+        ]
+    },
+    "Kurtis": {
+        "color": [
+            "black",
+            "red",
+            "navy blue",
+            "maroon",
+            "green",
+            "pink",
+            "blue",
+            "purple",
+            "grey",
+            "yellow",
+            "white",
+            "multicolor",
+            "orange"
+        ],
+        "fit_shape": [
+            "straight",
+            "a-line"
+        ],
+        "length": [
+            "knee length",
+            "calf length"
+        ],
+        "occasion": [
+            "daily",
+            "party"
+        ],
+        "ornamentation": [
+            "net",
+            "default"
+        ],
+        "pattern": [
+            "solid",
+            "default"
+        ],
+        "print_or_pattern_type": [
+            "solid",
+            "default"
+        ],
+        "sleeve_length": [
+            "three-quarter sleeves",
+            "short sleeves",
+            "sleeveless"
+        ],
+        "sleeve_styling": [
+            "regular",
+            "sleeveless"
+        ]
+    },
+    "Women Tshirts": {
+        "color": [
+            "multicolor",
+            "yellow",
+            "black",
+            "default",
+            "pink",
+            "maroon",
+            "white"
+        ],
+        "fit_shape": [
+            "loose",
+            "boxy",
+            "regular"
+        ],
+        "length": [
+            "long",
+            "crop",
+            "regular"
+        ],
+        "pattern": [
+            "default",
+            "solid",
+            "printed"
+        ],
+        "print_or_pattern_type": [
+            "default",
+            "quirky",
+            "solid",
+            "graphic",
+            "funky print",
+            "typography"
+        ],
+        "sleeve_length": [
+            "default",
+            "long sleeves",
+            "short sleeves"
+        ],
+        "sleeve_styling": [
+            "regular sleeves",
+            "cuffed sleeves"
+        ],
+        "surface_styling": [
+            "default",
+            "applique"
+        ]
+    },
+    "Women Tops & Tunics": {
+        "color": [
+            "black",
+            "navy blue",
+            "red",
+            "default",
+            "maroon",
+            "white",
+            "green",
+            "blue",
+            "pink",
+            "yellow",
+            "peach",
+            "multicolor"
+        ],
+        "fit_shape": [
+            "regular",
+            "fitted",
+            "boxy",
+            "default"
+        ],
+        "length": [
+            "crop",
+            "regular"
+        ],
+        "neck_collar": [
+            "high",
+            "round neck",
+            "stylised",
+            "sweetheart neck",
+            "v-neck",
+            "square neck",
+            "default"
+        ],
+        "ocassion": [
+            "casual",
+            "party"
+        ],
+        "pattern": [
+            "default",
+            "printed",
+            "solid"
+        ],
+        "print_or_pattern_type": [
+            "solid",
+            "typography",
+            "graphic",
+            "default",
+            "quirky",
+            "floral"
+        ],
+        "sleeve_length": [
+            "short sleeves",
+            "sleeveless",
+            "three-quarter sleeves",
+            "long sleeves"
+        ],
+        "sleeve_styling": [
+            "regular sleeves",
+            "default",
+            "sleeveless",
+            "puff sleeves"
+        ],
+        "surface_styling": [
+            "knitted",
+            "default",
+            "ruffles",
+            "waist tie-ups",
+            "tie-ups",
+            "applique"
+        ]
+    }
+}
