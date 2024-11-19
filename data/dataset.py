@@ -13,18 +13,12 @@ class VisualTaxanomyDataset(VisionDataset):
         data_df: pd.DataFrame,
         img_dir: str,
         attr_config: dict,
-        gamma: float = 1.0,
-        beta: float = 0.999,
         transform=None,
     ):
         super().__init__(transform=transform, root=None)
         self.data_df = data_df
         self.attr_config = attr_config
         self.img_dir = img_dir
-        self.cls_weights = None
-        self.cbl_dict = None
-        self.gamma = gamma
-        self.beta = beta
 
     def class_count(self):
         cls_count = dict()
