@@ -33,7 +33,7 @@ If WandB is needed, then
   - Remove `--no-wandb` arguement
   - Add `WANDB_API_KEY`
 
-**The explanation of other Training Arguments can be found [here](utils/README.md).**
+**The explanation of other Training Arguments can be found [here](utils/README.md#Training-Arguments).**
 
 ### 2. Start the Training
 To begin the training, run:
@@ -71,7 +71,7 @@ output_dir
 2. `TEST_CSV_PATH` - Test CSV Path
 3. `CKPT_PATH` - Path to the Checkpoint
    
-**The explanation of other Inference Arguments can be found [here](utils/README.md).**
+**The explanation of other Inference Arguments can be found [here](utils/README.md#Inference-Arguments).**
 
 
 ### 3. Start the Inference
