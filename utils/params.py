@@ -173,9 +173,6 @@ def get_train_args():
 
     # Hyper-Parameter Settings
     parser.add_argument(
-        "--gamma", type=float, default=1.0, help="Gamma for the Focal Loss."
-    )
-    parser.add_argument(
         "--beta", type=float, default=0.999, help="Beta for the CBL Loss and DRW."
     )
     parser.add_argument(
