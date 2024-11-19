@@ -134,6 +134,9 @@ Ensure you use the same train/validation split employed during model creation. U
 2.  **Where are my training checkpoints stored?**\
 All model checkpoints and metrics are stored in the directory specified in SAVE_DIR.
 
+3. **How can I use a different set of categories, attributes, and classes, or add to the existing ones?**\
+To update the configuration with a new set of categories, attributes, or class names or to modify the existing one, the attribute configuration JSON must be regenerated to incorporate these changes. Refer to the [Generating the Configuration JSON](https://github.com/srikesh-07/VT-Solution/tree/docs/config#generating-the-configuration-json) section for detailed instructions on how to create or update the configuration file.
+
 
 # 🤝 Credits
 This codebase is built with the help of the following repositories and incorporates parts of code from these amazing repositories. **Heartfelt thanks to the respective authors for their incredible work**:
