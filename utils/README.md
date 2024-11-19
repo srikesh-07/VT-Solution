@@ -81,9 +81,6 @@
 - `--loss_type` **{CE,LDAM,Focal,IB,IBFocal,F-CB,CE-CB,LA,CDT,VS}**  
   Type of Loss Function.
 
-- `--gamma` **GAMMA**  
-  Gamma value for the Focal Loss.
-
 - `--beta` **BETA**  
   Beta value for CBL Loss and DRW.
 
