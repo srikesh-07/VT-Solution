@@ -204,8 +204,6 @@ class Trainer:
             img_dir=self.img_dir,
             attr_config=self.label_config,
             transform=train_transforms,
-            gamma=self.args.gamma,
-            beta=self.args.beta,
         )
 
         valid_dataset = VisualTaxanomyDataset(
