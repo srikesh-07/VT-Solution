@@ -1,9 +1,9 @@
 <h1 align="center">📊 Visual Taxonomy Challenge - Predicting Multi-Attributes by Meesho</h1>
-<h2 align="center">A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Specialized Losses for Long-Tail Imbalance to predict Multi-Attributes of Clothes</h2>
+<h2 align="center">A Framework Consisting of Dynamic Shared ViT with Class Re-weighting Algorithms, Loss-Reweighting Algorithms, and Specialized Losses for Long-Tail Imbalance to Predict Multi-Attributes of Clothes</h2>
 <h3 align="center">Solution Proposed by <a href="https://www.kaggle.com/neuralretr0">Neural-Retro</a> (<a href="mailto:srikeshram05@gmail.com">Srikeshram B</a>)</h3>
 
 # 📖 Introduction
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clothing attribute prediction from images is inherently challenging due to noisy, imbalanced datasets and domain adaptation issues. Traditional models often struggle to balance learning across categories, especially minority classes, and are prone to biased predictions and catastrophic forgetting. This work presents a robust solution that leverages a domain-adapted Vision Transformer (ViT-B/32) backbone pre-trained on clothing data, minimizing the need for adaptation while effectively extracting relevant features. A customized data pipeline efficiently handles missing values, implements category-specific batch sampling, and applies augmentation techniques to improve model generalization. The model incorporates state-of-the-art loss weighting methods, such as Class Balanced Loss combined with Focal Loss, to ensure balanced learning and prevent conflicts between categories. This strategy mitigates class imbalance, particularly for underrepresented categories, and avoids biased learning toward a dominant category. The training process, utilizing AdamW optimizer, gradient clipping, and CosineLR scheduling with warmup, ensures stable and gradual convergence. The proposed approach achieves competitive results, effectively handling class imbalance and outperforming baseline methods on public benchmarks.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clothing attribute prediction from images is inherently challenging due to noisy, imbalanced datasets and domain adaptation issues. Traditional models often struggle to balance learning across categories, especially minority classes and are prone to biased predictions and catastrophic forgetting. This work presents a robust solution that leverages a domain-adapted Vision Transformer (ViT-B/32) backbone pre-trained on clothing data, minimizing the need for adaptation while effectively extracting relevant features. A customized data pipeline efficiently handles missing values, implements category-specific batch sampling, and applies augmentation techniques to improve model generalization. The model incorporates state-of-the-art loss weighting methods, such as Class Balanced Loss combined with Focal Loss, to ensure balanced learning and prevent conflicts between categories. This strategy mitigates class imbalance, particularly for underrepresented categories, and avoids biased learning toward a dominant category. The training process, utilizing AdamW optimizer, gradient clipping, and CosineLR scheduling with warmup, ensures stable and gradual convergence. The proposed approach achieves competitive results, effectively handling class imbalance and outperforming baseline methods on public benchmarks.
 
 # 🛠️ Setup
 ### 1. Install Miniconda3 or Anaconda3
@@ -19,7 +19,7 @@ Activate the environment with:
 conda activate vt_challenge
 ```
 ### 4. Download the Pre-Trained Backbone weights for Training
-This step downloads the pre-trained CLIP backbone on GS10M dataset. Refer [GCL](https://github.com/marqo-ai/GCL) repository for more detatils. Execute the following command to download the pre-trained checkpoints
+This step downloads the pre-trained CLIP backbone on GS10M dataset. Refer [GCL](https://github.com/marqo-ai/GCL) repository for more details. Execute the following command to download the pre-trained checkpoints
 ```
 bash scripts/download.sh
 ```
@@ -30,7 +30,7 @@ bash scripts/download.sh
 3. `SAVE_DIR` - Directory to save all the Checkpoints
 
 If WandB is needed, then
-  - Remove `--no-wandb` arguement
+  - Remove `--no-wandb` argument
   - Add `WANDB_API_KEY`
 
 **The explanation of other Training Arguments can be found [here](utils/README.md#Training-Arguments).**
