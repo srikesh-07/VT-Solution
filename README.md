@@ -144,4 +144,4 @@ This codebase is built with the help of the following repositories and incorpora
 5. VSLoss - [Github](https://github.com/orparask/VS-Loss)
 
 # 📝 TO DO
-1. Documentation of Code
+1. Documentation of Code (To be Done on Post-Competition)
